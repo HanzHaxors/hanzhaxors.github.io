@@ -1,0 +1,78 @@
+@import "colorscheme";
+
+body {
+	font-family: $normal_font;
+	margin: 0;
+
+	* {
+		box-sizing: border-box;
+		outline: none;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $headers_font;
+	margin: auto 0px;
+}
+
+a {
+        text-decoration: none;
+        color: $hyperlink_text;
+
+        &:hover {
+                text-decoration: underline;
+        }
+}
+
+footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-auto-flow: auto-fill;
+        grid-gap: 20px;
+        padding: 3vw 4vw;
+        background: $footer_background;
+        color: $secondary_text;
+
+        ul {
+                list-style: none;
+                padding: 0;
+        }
+
+        a {
+                color: $secondary_text;
+        }
+
+        b {
+                color: $primary_text;
+        }
+}
+
+.flex-row {
+        display: flex;
+}
+
+.flex-column {
+        display: flex;
+        flex-direction: column;
+}
+
+.center-all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.center-vertical {
+        display: flex;
+        align-items: center;
+}
+
+@for $i from 1 through 10 {
+        .col-#{$i}-flex {
+                flex: $i;
+        }
+
+        .col-#{$i} {
+                width: 10% * $i;
+        }
+}
