@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -10,7 +10,89 @@ body * {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", sans-serif;
+  font-weight: normal;
   margin: auto 0px;
+}
+h1.revert, h2.revert, h3.revert, h4.revert, h5.revert, h6.revert {
+  margin: revert;
+}
+h1.pop, h2.pop, h3.pop, h4.pop, h5.pop, h6.pop {
+  color: #9a3dce;
+}
+
+p {
+  color: #515151;
+}
+
+input, select {
+  padding: 1em;
+  border: 2px solid #d4d4d4;
+  border-radius: 4px;
+  width: 100%;
+  margin: 5px;
+}
+input[readonly], select[readonly] {
+  background-color: #d2d2d280;
+  cursor: default;
+}
+input:focus:not([readonly]), select:focus:not([readonly]) {
+  border: 2px solid #9a3dce;
+}
+
+div.hero {
+  padding: 3em 5em;
+}
+div.content {
+  padding: 3em;
+}
+div.content > div {
+  margin: 3em 0px;
+}
+div.content div.left {
+  display: flex;
+  flex-direction: row;
+}
+div.content div.right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+button {
+  padding: 1em 3em;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+button.primary {
+  background: #9a3dce;
+  color: #f4f4f4;
+  cursor: pointer;
+}
+button.primary:hover {
+  box-shadow: 0px 2px 2px 1px #9a3dce60;
+  background-color: #9061aa;
+}
+button.secondary {
+  background: #458ac8;
+  color: #f4f4f4;
+  cursor: pointer;
+}
+button.secondary:hover {
+  box-shadow: 0px 2px 2px 1px #458ac860;
+  background-color: #6688a7;
+}
+button.tersier {
+  background: #f4f4f4;
+  color: #f4f4f4;
+  cursor: pointer;
+}
+button.tersier:hover {
+  box-shadow: 0px 2px 2px 1px #f4f4f460;
+  background-color: #f4f4f4;
+}
+button:active {
+  filter: brightness(0.8);
+  scale: 0.95;
 }
 
 a {

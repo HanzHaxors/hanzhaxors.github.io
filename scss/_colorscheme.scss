@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
 
 // Overview
 $background: #ffffff;
@@ -10,16 +10,27 @@ $scroll_bar: #ddd;
 $headers_font: 'PT Sans', sans-serif;
 $normal_font: 'Open Sans', sans-serif;
 $hero_text: #ffffff;
+$headers_pop_color: #9a3dce;
 
 $primary_text: #000000;
 $secondary_text: #515151;
 $hyperlink_text: #262626;
 
 // Buttons
-$cta_primary_background: #f5f5j2;
+$cta_primary_background: #9a3dce;
 $cta_primary_color: #f4f4f4;
-$cta_secondary_background: #00000000;
-$cta_secondary_color: #000000;
+$cta_secondary_background: #458ac8;
+$cta_secondary_color: #f4f4f4;
+$tersier_background: #f4f4f4;
+$tersier_color: $cta_secondary_color;
 
-$cta_shadow: 0px 2px 4px 3px #89898960;
-$default_shadow: 0px 2px 4px 3px #89898960;
+$cta_shadow: 0px 3px 4px 2px #8e8e8e60;
+$default_shadow: 0px 3px 4px 2px #8e8e8e60;
+
+@mixin custom-shadow($color) {
+	box-shadow: 0px 2px 2px 1px #{$color}60;
+}
+
+// Inputs
+$disabled_input: #d2d2d2;
+$active_input: $cta_primary_background;
