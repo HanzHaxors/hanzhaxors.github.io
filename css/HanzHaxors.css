@@ -132,6 +132,16 @@ footer b {
   flex-direction: column;
 }
 
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .center-all {
   display: flex;
   justify-content: center;
