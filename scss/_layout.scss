@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+
+	* {
+		box-sizing: border-box;
+
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+
+		border: 0;
+		outline: none;
+	}
+}
+
+.f-dir {
+	&-c { flex-direction: column; }
+	&-c-r { flex-direction: column-reverse; }
+	&-r { flex-direction: row; }
+	&-r-r { flex-direction: row-reverse;; }
+}
+
+.on-mobile { display: none; }
+.no-mobile { display: block; }
+
+@media screen and (max-width: 550px) {
+	.on-mobile {
+		display: block;
+	}
+
+	.no-mobile {
+		display: none;
+	}
+}
