@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="/css/Homepage.css">
 	</head>
 	<body>
-		<div class="hero">
+		<div class="ip-big">
 			<h1>I'm Hanz</h1>
 			<h2>I'm Hanz</h2>
 			<h3>I'm Hanz</h3>
@@ -26,8 +26,8 @@
 				philosophy <u>doesn't really <s>matter</s></u>.
 			</p>
 		</div>
-		<div class="content">
-			<div class="center-all">
+		<div class="ip-big">
+			<div>
 				<h1>Why I'm Here</h1>
 			</div>
 			<div class="left">
@@ -57,50 +57,90 @@
                                 </div>
 			</div>
 			<div class="center-all flex-column">
-				<h1>Controls</h1>
+				<h1 class="ntm">Controls</h1>
 				<p>
 					Not from ASP.Net
 				</p>
 			</div>
 			<div class="flex-column">
 				<h3>Inputs</h3>
-				<div class="center-all flex-column">
-					<input type="text" name="" value="">
-					<input type="email" name="" value="">
-					<input type="password" name="" value="">
-					<input type="number" name="" value="">
-					<input type="radio" name="" value="">
-					<input type="range" name="" value="">
-					<input type="reset" name="" value="Reset">
-					<input type="checkbox" name="" value="">
-					<input type="color" name="" value="">
-					<input type="file" name="" value="">
-					<input type="image" name="" value="">
-					<input type="url" name="" value="">
-					<input type="tel" name="" value="">
-					<input type="time" name="" value="">
-					<input type="week" name="" value="">
-					<input type="search" name="" value="">
-					<input type="submit" name="" value="Submit">
-					<input type="date" name="" value="">
-					<input type="datetime" name="" value="">
-					<input type="datetime-local" name="" value="">
-					<input type="button" name="" value="Button">
-					<input type="month" name="" value="">
-				</div>
+				<ul>
+					<li>
+						<input type="radio" name="radios" id="zero" value="0">
+						<label for="zero">Pick 0</label>
+						<input type="radio" name="radios" id="one" value="1">
+						<label for="one">Pick 1</label>
+					</li>
+					<li>
+						<input type="checkbox" name="check" value="">
+						<label for="check">Test Checkbox</label>
+					</li>
+					<li>
+						<input type="checkbox" name="check" class="switch">
+						<label for="check">Activate Diguise</label>
+					</li>
+					<li>
+						<select class="ip-big">
+							<option value="DFINE">DFINE</option>
+							<option value="BRIGHT">BRIGHT</option>
+						</select>
+					</li>
+					<li class="stylized-input small primary flex-row">
+						<input type="text" placeholder="Small Input" class="small-fs small-lh ip-small">
+						<button type="submit" class="small-fs small-lh ip-small">-></button>
+					</li>
+					<li class="stylized-input medium secondary flex-row">
+						<input type="text" placeholder="Medium Input" class="medium-fs medium-lh ip-medium">
+						<button type="submit" class="medium-fs medium-lh ip-medium">-></button>
+					</li>
+					<li class="stylized-input big decoration flex-row">
+						<input type="text" placeholder="Big Input" class="big-fs big-lh ip-big">
+						<button type="submit" class="big-fs big-lh ip-big">-></button>
+					</li>
+				</ul>
 			</div>
 		</div>
-		<div class="footer">
+		<div class="col-10 center-all flex-column secondary-bg background-fg ip-big">
+			<h1 class="ntm">HanzHaxors.css Boxes</h1>
+			<span>Simple, customizable, open source</span>
+		</div>
+		<div class="ip-big flex-column">
+			<ul>
+				<li class="box col-1">
+					<h2>.box.col-1</h2>
+				</li>
+				<li class="box col-2">
+					<h2>.box.col-2</h2>
+				</li>
+				<li class="box col-5">
+					<h2>.box.col-5</h2>
+				</li>
+				<li class="box col-7">
+					<h2>.box.col-7</h2>
+				</li>
+				<li class="box col-10">
+					<h2>.box.col-10</h2>
+				</li>
+			</ul>
+		</div>
+		<br>
+		<div class="ip-big secondary-bg background-fg">
 			<div>
-				<h1>Footer</h1>
-				<p>Such wow!</p>
+				<h1 class="primary-fg ntm">Footer</h1>
+				<span>Such wow!</span>
 			</div>
-			<div>
-				<ul>
+			<div class="flex-row">
+				<ul class="nm">
 					<li>Lorem ipsum dolor sit amet</li>
 					<li>consectetur adipisicing elit</li>
 					<li>sed do eiusmod tempor incididunt</li>
 					<li>ut labore et dolore magna aliqua.</li>
+				</ul>
+				<ul class="nm">
+					<li>Commodi quod nesciunt magni</li>
+					<li>consequatur id quidem eos iure</li>
+					<li>mollitia ipsum consequuntur.</li>
+					<li>Ipsam numquam maiores eligendi.</li>
 				</ul>
 			</div>
 		</div>
