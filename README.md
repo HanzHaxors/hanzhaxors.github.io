@@ -1,16 +1,16 @@
-### Hi there 👋
-
-<!--
-**HanzHaxors/HanzHaxors** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## TODOs
+### HH.css
+ - [x] `<header>`
+  - [x] `<img>`
+  - [x] `<a>`
+  - [x] `<select>`
+ - [x] `<footer>`
+  - [x] `<img>`
+  - [x] `<ul>`
+   - [x] `<li><a>`
+ - [ ] `<section>`
+  - [ ] `<h2>`
+  - [ ] `<p>`
+ - [ ] Buttons
+  - [ ] `.cta-pr-btn`
+  - [ ] `.cta-sc-btn`

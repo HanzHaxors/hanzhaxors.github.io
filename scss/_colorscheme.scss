@@ -1,0 +1,18 @@
+:root {
+	--primary:	#db4545;	// Your company favourite colour
+					// Will be used in:
+					// Links, CTA Buttons, Input border
+	--secondary:	#242424;	// Something that doesn't catch users'
+					// attention. Will be used in:
+					// Header and footer
+	--accent1:	#000000;	// Cool color that is lower than accent2
+					// Will be used in:
+					//
+	--accent2:	#000000;	//
+	/* Technical colors */
+	--texts:	var(--accent1);	// Basic color that applies to
+					// paragraphs and bolds
+	--inactive:	#000000;
+	--control-bg:	#000000;
+	--white:	#ffffff;
+}

@@ -1,0 +1,14 @@
+img {
+	&[round] {
+		border-radius: $radius * 3;
+	}
+
+	&[circle] {
+		border-radius: 100%;
+	}
+
+	&[maxcontent] {
+		width: auto;
+		height: 100%;
+	}
+}

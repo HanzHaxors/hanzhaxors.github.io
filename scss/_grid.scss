@@ -1,0 +1,42 @@
+grid {
+	display: grid;
+	grid-gap: $padding * 3;
+
+	@for $i from 10 through 200 {
+		@if $i % 25 == 0 {
+			&[size="#{$i}"] {
+				grid-template-columns: repeat(auto-fill, minmax(#{$i}px, 1fr));
+
+				&[center] {
+					grid-template-columns: repeat(auto-fit, minmax(#{$i}px, 1fr));
+				}
+			}
+		}
+	}
+
+
+	> div {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		> div {
+			> img {
+				display: block;
+				margin: auto;
+			}
+
+			> b {
+				margin-top: $margin;
+			}
+
+			> p {
+				text-align: justify;
+			}
+		}
+
+		&[center] {
+			text-align: center;
+		}
+	}
+}

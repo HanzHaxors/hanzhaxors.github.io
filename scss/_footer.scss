@@ -1,0 +1,62 @@
+footer {
+	// Layouting
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	// Sizing
+	width: 100%;
+	padding: $padding * 3;
+
+	// Coloring
+	background: var(--secondary);
+
+	b {
+		color: var(--white);
+	}
+
+	a {
+		color: var(--white);
+		filter: brightness(0.6);
+	}
+
+	> img {
+		height: max-content;
+		// width: 15%;
+	}
+
+	> links {
+		display: flex;
+
+		> div {
+			margin: $margin;
+			display: flex;
+			flex-direction: column;
+
+			> * {
+				margin: {
+					top: $margin / 3;
+					bottom: $margin / 3;
+				}
+			}
+		}
+	}
+
+	> contact {
+		display: flex;
+		flex-direction: column;
+
+		> p {
+			color: var(--white);
+		}
+
+		> div {
+			display: flex;
+
+			> a {
+				font-size: 24px;
+				color: var(--white);
+			}
+		}
+	}
+}

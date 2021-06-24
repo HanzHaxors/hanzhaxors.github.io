@@ -1,0 +1,27 @@
+html {
+	outline: none;
+
+	> body {
+		margin: 0;
+		background: var(--white);
+		font-family: 'Inter', sans-serif;
+		font-size: 14px;
+
+		* {
+			box-sizing: border-box;
+			transition: 0.7s;
+		}
+
+		> * {
+			padding: {
+				left: $padding * 3;
+				right: $padding * 3;
+			}
+		}
+	}
+}
+
+::selection {
+	color: var(--white);
+	background: var(--primary);
+}

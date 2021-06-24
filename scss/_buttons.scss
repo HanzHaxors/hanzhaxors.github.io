@@ -1,0 +1,60 @@
+@mixin cta-btn {
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+
+	&[margin] {
+		margin: $margin;
+	}
+}
+
+.cta {
+	&-pr {
+		&-btn {
+			@include cta-btn;
+			border-radius: $radius;
+			padding: $padding;
+			color: var(--white);
+			background: var(--primary);
+
+			&:hover {
+				filter: brightness(0.8);
+			}
+		}
+	}
+
+	&-sc {
+		&-btn {
+			@include cta-btn;
+			border-radius: $radius;
+			padding: $padding;
+			color: var(--primary);
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&-gh {
+		&-pr {
+			&-btn {
+				@include cta-btn;
+				border-radius: 3px;
+				padding: $padding;
+				color: var(--primary);
+				border: 2px solid
+			}
+		}
+
+		&-sc {
+			&-btn {
+				@include cta-btn;
+				border-radius: 3px;
+				padding: $padding;
+				color: var(--primary);
+				border: 2px dotted;
+			}
+		}
+	}
+}

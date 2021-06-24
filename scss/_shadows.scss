@@ -1,0 +1,10 @@
+@mixin box-glowy($rad) {
+	[box-glowy-#{$rad}] {
+		box-shadow: 0px 0px #{$rad}px var(--white);
+	}
+}
+
+@include box-glowy(2);
+@include box-glowy(5);
+@include box-glowy(15);
+@include box-glowy(20);

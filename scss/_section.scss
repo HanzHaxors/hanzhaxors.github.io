@@ -1,0 +1,41 @@
+section {
+	display: flex;
+	flex-direction: column;
+	padding: $padding * 3 0px;
+
+	&[hero] {
+		display: block;
+		position: relative;
+		padding: $padding * 4;
+		overflow: hidden;
+		color: var(--white);
+
+		p {
+			color: var(--white);
+		}
+
+		> img:first-of-type {
+			width: 100%;
+			height: auto;
+			// opacity: 0.4;
+			filter: brightness(0.4);
+			position: absolute;
+			left: 0px;
+			top: 0px;
+
+			z-index: -1;
+		}
+	}
+
+	&[center] {
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	section[hero] > img:first-of-type {
+		width: auto;
+		height: 100%;
+	}
+}

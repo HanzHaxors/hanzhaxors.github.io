@@ -1,0 +1,40 @@
+header {
+	// Layouting
+	display: flex;
+	justify-content: space-between;
+
+	// Sizing
+	padding: $padding * 1;
+	width: 100%;
+
+	// Coloring
+	background: var(--secondary);
+
+	> img {
+		width: auto;
+		height: 100%;
+	}
+
+	> div {
+		display: flex;
+		align-items: center;
+
+		> * {
+			display: block;
+			padding: $padding * 1;
+		}
+
+		> a {
+			color: var(--white);
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline !important;
+			}
+		}
+
+		> dropdown {
+			// TODO: Add hover effect and its child styling
+		}
+	}
+}
