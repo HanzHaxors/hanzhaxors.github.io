@@ -10,6 +10,7 @@
 
 		<link rel="stylesheet" href="./css/HanzHaxors.css">
 		<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -34,7 +35,7 @@
 			</p>
 			<div>
 				<a href="#" class="cta-pr-btn">Saya tertarik</a>
-				<a href="#" class="cta-gh-sc-btn" margin>Baca selengkapnya</a>
+				<a href="#" class="cta-gh-sc-btn" margin hover-white>Baca selengkapnya</a>
 			</div>
 		</section>
 		<section center box-glowy-20>
@@ -68,7 +69,7 @@
 				<div center>
 					<div>
 						<img src="//placeimg.com/201/200/tech" round>
-						<b>Dokumentasi Godot dalam Bahasa Indonesia</b>
+						<b>Mendokumentasi Godot ke Bahasa Indonesia</b>
 						<p>
 							Dokumentasi yang lengkap dan berbobot
 							akan menambah kepahaman kita terhadap
@@ -80,15 +81,18 @@
 			</grid>
 		</section>
 		<section>
-			<h2>Kreasi dan Material Anggota Komunitas</h2>
+			<h2>Kolom Kreasi</h2>
 			<grid size="200">
 				<div>
 					<div>
-						<img src="//placekitten.com/200/200">
+						<img src="//placekitten.com/200/200" round full>
 						<b>
+							<label class="blue">Game</label>
 							Copycat Master
-							<font size="1.5px">By Hana</font>
 						</b>
+						<div>
+							<font size="2px">By Hana</font>
+						</div>
 						<p>
 							Jump, jump, dash! Try to guess
 							the fakes
@@ -98,26 +102,14 @@
 				</div>
 				<div>
 					<div>
-						<img src="//placekitten.com/200/201">
+						<img src="//placekitten.com/201/201" round full>
 						<b>
-							Railgun Railing
-							<font size="1.5px">By Sami</font>
-						</b>
-						<p>
-							Enemies incoming! Should you pick up the
-							secret weapon next to you and destroy
-							terrains? Sounds good!
-						</p>
-					</div>
-					<a href="#" class="cta-pr-btn" text-center>Play Now</a>
-				</div>
-				<div>
-					<div>
-						<img src="//placekitten.com/201/201">
-						<b>
+							<label class="blue">Game</label>
 							I'am Trice
-							<font size="1.5px">By Kevin</font>
 						</b>
+						<div>
+							<font size="2px">By Kevin</font>
+						</div>
 						<p>
 							You and your friends attend a super
 							experiment trying to make y'all a
@@ -129,7 +121,85 @@
 				</div>
 				<div>
 					<div>
-						<img src="//placekitten.com/202/200">
+						<img src="//placekitten.com/202/200" round full>
+						<b>Punya Konten?</b>
+						<p>
+							Yuk kirimkan punyamu ke salah satu
+							sesi Nusantara Game Jam atau
+							<a href="//t.me/godot_indonesia">Group Telegram</a>
+							kami
+						</p>
+					</div>
+					<a href="//t.me/godot_indonesia" class="cta-gh-pr-btn" text-center>
+						Kirim Sekarang
+						-->
+					</a>
+				</div>
+			</grid>
+		</section>
+		<section>
+			<h2>Pojok Belajar</h2>
+			<grid size="200">
+				<div>
+					<div>
+						<img src="//placekitten.com/200/201" round full>
+						<b>
+							<label class="orange">Blog</label>
+							Memanfaatkan RigidBody2D Untuk Membuat Kail Pancing
+						</b>
+						<div>
+							<font size="2px">By Sami</font>
+						</div>
+						<p>
+							Fisika? Biologi? Apaan tuh? Game engine Godot
+							sangat mempermudah Game Development dengan
+							berbagai variabel dan fungsi yang dapat
+							menghitung rumus untuk kita...
+						</p>
+					</div>
+					<a href="#" class="cta-pr-btn" text-center>Read More</a>
+				</div>
+				<div>
+					<div>
+						<img src="//placekitten.com/201/201" round full>
+						<b>
+							<label class="purple">Video</label>
+							I'am Trice: The Gameplay
+						</b>
+						<div>
+							<font size="2px">By Kevin</font>
+						</div>
+						<p>
+							You and your friends attend a super
+							experiment trying to make y'all a
+							clone. Co-operate with your friends
+							and fail the evil capitalist scientist
+						</p>
+					</div>
+					<a href="#" class="cta-pr-btn" text-center>Play Video</a>
+				</div>
+				<div>
+					<div>
+						<img src="//placekitten.com/201/201" round full>
+						<b>
+							<label class="cornblue">Devlog</label>
+							I'am Trice: Postmortem
+						</b>
+						<div>
+							<font size="2px">By Kevin</font>
+						</div>
+						<p>
+							Saya akan berbagi pengalaman saya mengenai
+							game development "I'am Trice". Mulai dari
+							pencarian ide sampai shading pada setiap pixel.
+							Jangan bosan dengan "novel"ku ini ya...
+						</p>
+					</div>
+					<a href="#" class="cta-pr-btn" text-center>Read More</a>
+				</div>
+				<div>
+					<div>
+						<img src="//placekitten.com/202/200" round full>
 						<b>Punya Konten?</b>
 						<p>
 							Yuk kirimkan punyamu ke salah satu
@@ -164,7 +234,7 @@
 			<img id="cont_foto" src="//placekitten.com/192/192" maxcontent circle>
 			<h1 id="cont_nama">HanzCEO</h1>
 			<p text-center>
-				Karena telah berpartisipasi sebanyak <b id="cont_jumlah">0</b> kali
+				Karena telah berkontribusi sebanyak <b id="cont_jumlah">0</b> kali
 				dalam proyek <a id="cont_proyek">godotid.github.io</a>
 			</p>
 			<script src="/js/homepage/contribution.js" charset="utf-8"></script>

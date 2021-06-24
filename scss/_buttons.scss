@@ -54,6 +54,10 @@
 				padding: $padding;
 				color: var(--primary);
 				border: 2px dotted;
+
+				&[hover-white]:hover {
+					color: var(--white);
+				}
 			}
 		}
 	}

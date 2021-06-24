@@ -38,3 +38,7 @@ h1 {
 [mark-white] {
 	background: var(--white);
 }
+
+[dimmed] {
+	filter: brightness(0.6);
+}
