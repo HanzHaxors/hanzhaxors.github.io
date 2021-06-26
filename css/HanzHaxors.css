@@ -321,6 +321,9 @@ grid > div[center] {
   text-align: center;
 }
 
+img {
+  max-width: 100%;
+}
 img[round] {
   border-radius: 9px;
 }

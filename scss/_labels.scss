@@ -1,0 +1,24 @@
+label {
+	padding: 2px $padding * 0.5;
+	color: white;
+	font-size: 10px;
+	display: inline-block;
+	border-radius: $radius * 1;
+	// margin: 0px 5px;
+
+	&.purple {
+		background: blueviolet;
+	}
+
+	&.orange {
+		background: orange;
+	}
+
+	&.blue {
+		background: cadetblue;
+	}
+
+	&.cornblue {
+		background: cornflowerblue;
+	}
+}

@@ -1,4 +1,6 @@
 img {
+	max-width: 100%;
+	
 	&[round] {
 		border-radius: $radius * 3;
 	}
