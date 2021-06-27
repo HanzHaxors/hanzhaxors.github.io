@@ -1,0 +1,13 @@
+input, textarea {
+	padding: $padding;
+	margin: $margin / 2 0px;
+
+	border-radius: $radius * 3;
+	border: 1px solid;
+
+	font-family: inherit;
+	font-size: smaller;
+	
+	color: var(--primary);
+	background: var(--secondary);
+}
