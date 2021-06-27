@@ -241,6 +241,17 @@ footer > contact > div > a {
   color: var(--white);
 }
 
+input, textarea {
+  padding: 10px;
+  margin: 5px 0px;
+  border-radius: 9px;
+  border: 1px solid;
+  font-family: inherit;
+  font-size: smaller;
+  color: var(--primary);
+  background: var(--secondary);
+}
+
 flex {
   display: flex;
 }
