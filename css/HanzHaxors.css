@@ -251,6 +251,10 @@ input, textarea {
   color: var(--primary);
   background: var(--secondary);
 }
+input[white], textarea[white] {
+  color: var(--white);
+  background: var(--secondary);
+}
 
 flex {
   display: flex;

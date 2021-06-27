@@ -7,7 +7,12 @@ input, textarea {
 
 	font-family: inherit;
 	font-size: smaller;
-	
+
 	color: var(--primary);
 	background: var(--secondary);
+
+	&[white] {
+		color: var(--white);
+		background: var(--secondary);
+	}
 }
