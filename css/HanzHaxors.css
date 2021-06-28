@@ -694,6 +694,10 @@ grid > div[center] {
   max-height: 100%;
 }
 
+[width-paragraph] {
+  width: 80ch;
+}
+
 img {
   max-width: 100%;
 }
