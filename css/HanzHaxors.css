@@ -255,6 +255,15 @@ input[white], textarea[white] {
   color: var(--white);
   background: var(--secondary);
 }
+input[resize-horizontal], textarea[resize-horizontal] {
+  resize: horizontal;
+}
+input[resize-vertical], textarea[resize-vertical] {
+  resize: vertical;
+}
+input[no-resize], textarea[no-resize] {
+  resize: none;
+}
 
 flex {
   display: flex;

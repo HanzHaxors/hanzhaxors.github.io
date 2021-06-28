@@ -15,4 +15,16 @@ input, textarea {
 		color: var(--white);
 		background: var(--secondary);
 	}
+
+	&[resize-horizontal] {
+		resize: horizontal;
+	}
+
+	&[resize-vertical] {
+		resize: vertical;
+	}
+
+	&[no-resize] {
+		resize: none;
+	}
 }
