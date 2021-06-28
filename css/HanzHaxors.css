@@ -244,7 +244,7 @@ footer > contact > div > a {
 input, textarea {
   padding: 10px;
   margin: 5px 0px;
-  border-radius: 9px;
+  border-radius: 3px;
   border: 1px solid;
   font-family: inherit;
   font-size: smaller;
@@ -349,6 +349,60 @@ img[maxcontent] {
   width: auto;
   height: 100%;
 }
+img[darker-5] {
+  filter: brightness(0.05);
+}
+img[darker-10] {
+  filter: brightness(0.1);
+}
+img[darker-15] {
+  filter: brightness(0.15);
+}
+img[darker-20] {
+  filter: brightness(0.2);
+}
+img[darker-25] {
+  filter: brightness(0.25);
+}
+img[darker-30] {
+  filter: brightness(0.3);
+}
+img[darker-35] {
+  filter: brightness(0.35);
+}
+img[darker-40] {
+  filter: brightness(0.4);
+}
+img[darker-45] {
+  filter: brightness(0.45);
+}
+img[darker-50] {
+  filter: brightness(0.5);
+}
+img[darker-55] {
+  filter: brightness(0.55);
+}
+img[darker-60] {
+  filter: brightness(0.6);
+}
+img[darker-65] {
+  filter: brightness(0.65);
+}
+img[darker-70] {
+  filter: brightness(0.7);
+}
+img[darker-75] {
+  filter: brightness(0.75);
+}
+img[darker-80] {
+  filter: brightness(0.8);
+}
+img[darker-85] {
+  filter: brightness(0.85);
+}
+img[darker-90] {
+  filter: brightness(0.9);
+}
 
 [box-glowy-2] {
   box-shadow: 0px 0px 2px var(--white);
@@ -397,4 +451,8 @@ label.blue {
 }
 label.cornblue {
   background: cornflowerblue;
+}
+
+[no-transition] {
+  transition: none;
 }

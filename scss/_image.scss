@@ -1,6 +1,6 @@
 img {
 	max-width: 100%;
-	
+
 	&[round] {
 		border-radius: $radius * 3;
 	}
@@ -12,5 +12,13 @@ img {
 	&[maxcontent] {
 		width: auto;
 		height: 100%;
+	}
+
+	@for $i from 5 through 90 {
+		@if $i % 5 == 0 {
+			&[darker-#{$i}] {
+				filter: brightness($i / 100);
+			}
+		}
 	}
 }
