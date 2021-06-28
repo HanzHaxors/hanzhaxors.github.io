@@ -350,58 +350,58 @@ img[maxcontent] {
   height: 100%;
 }
 img[darker-5] {
-  filter: brightness(0.05);
+  filter: brightness(0.05) !important;
 }
 img[darker-10] {
-  filter: brightness(0.1);
+  filter: brightness(0.1) !important;
 }
 img[darker-15] {
-  filter: brightness(0.15);
+  filter: brightness(0.15) !important;
 }
 img[darker-20] {
-  filter: brightness(0.2);
+  filter: brightness(0.2) !important;
 }
 img[darker-25] {
-  filter: brightness(0.25);
+  filter: brightness(0.25) !important;
 }
 img[darker-30] {
-  filter: brightness(0.3);
+  filter: brightness(0.3) !important;
 }
 img[darker-35] {
-  filter: brightness(0.35);
+  filter: brightness(0.35) !important;
 }
 img[darker-40] {
-  filter: brightness(0.4);
+  filter: brightness(0.4) !important;
 }
 img[darker-45] {
-  filter: brightness(0.45);
+  filter: brightness(0.45) !important;
 }
 img[darker-50] {
-  filter: brightness(0.5);
+  filter: brightness(0.5) !important;
 }
 img[darker-55] {
-  filter: brightness(0.55);
+  filter: brightness(0.55) !important;
 }
 img[darker-60] {
-  filter: brightness(0.6);
+  filter: brightness(0.6) !important;
 }
 img[darker-65] {
-  filter: brightness(0.65);
+  filter: brightness(0.65) !important;
 }
 img[darker-70] {
-  filter: brightness(0.7);
+  filter: brightness(0.7) !important;
 }
 img[darker-75] {
-  filter: brightness(0.75);
+  filter: brightness(0.75) !important;
 }
 img[darker-80] {
-  filter: brightness(0.8);
+  filter: brightness(0.8) !important;
 }
 img[darker-85] {
-  filter: brightness(0.85);
+  filter: brightness(0.85) !important;
 }
 img[darker-90] {
-  filter: brightness(0.9);
+  filter: brightness(0.9) !important;
 }
 
 [box-glowy-2] {

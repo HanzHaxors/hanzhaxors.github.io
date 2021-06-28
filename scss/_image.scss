@@ -17,7 +17,7 @@ img {
 	@for $i from 5 through 90 {
 		@if $i % 5 == 0 {
 			&[darker-#{$i}] {
-				filter: brightness($i / 100);
+				filter: brightness($i / 100) !important;
 			}
 		}
 	}
