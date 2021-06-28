@@ -1,0 +1,19 @@
+@for $i from 0 through 100 {
+	@if $i % 5 == 0 {
+		[width-#{$i}] {
+			width: percentage($i / 100);
+		}
+
+		[height-#{$i}] {
+			height: percentage($i / 100);
+		}
+
+		[maxwidth-#{$i}] {
+			max-width: percentage($i / 100);
+		}
+
+		[maxheight-#{$i}] {
+			max-height: percentage($i / 100);
+		}
+	}
+}
